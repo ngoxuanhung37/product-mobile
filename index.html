@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Shop của Hùng</title>
+</head>
+<body>
+<!--menu-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://aptechvietnam.com.vn/sites/all/themes/aptech_news_2/logo.png" alt="" width="auto" height="auto" class="d-inline-block align-text-top">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbarDropdown">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+        </div>
+    </nav>
+<!--end menu-->
+
+<!--slide-->
+    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="true">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img_slide/first_slide.png" class="d-block w-100" alt="First Slide">
+        </div>
+        <div class="carousel-item">
+            <img src="img_slide/second_slide.png" class="d-block w-100" alt="Second Slide">
+        </div>
+        <div class="carousel-item">
+            <img src="img_slide/third_slide.png" class="d-block w-100" alt="Third Slide">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--end slide-->
+
+<!--list new product-->
+<div class="container">
+    <div class="row mt-5">
+        <h2 class="list-product-title">New Product</h2>
+        <div class="list-product-subtitle">
+            <p>List Product Description</p>
+        </div>
+        <div class="product-group">
+            <div class="row">
+                <!-- product 1 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/oppo-find-x5-pro-den.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Realme C35</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">4.290.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 2 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Xiaomi-11T-White.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi 11T</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">10.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 3 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/samsung-galaxy-a03-xanh.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A03</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">2.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 4 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Xiaomi-11T-White.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">7.490.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 5 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Galaxy-S22-Black.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A52s</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">10.990.000<sup>đ</sup></span>
+                                <span class="new-price">8.490.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">sale 22%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 6 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Vivo-y15s-2021-xanh-den.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Vivo Y15 series</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">3.490.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 7 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/oppo-find-x5-pro-den.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Oppo Find X5 Pro</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">32.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <!-- <h4 class="sale-sticky">Sale</h4> -->
+                        </div>
+                      </div>
+                </div>
+                <!-- product 8 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/iphone-13-pro.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 13 Pro</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">30.990.000 <sup>đ</sup></span>
+                                <span class="new-price">27.190.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">sale 12%</h4>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end list new product-->
+
+<!--list top product-->
+<div class="container">
+    <div class="row mt-5">
+        <h2 class="list-product-title">Top Product</h2>
+        <div class="list-product-subtitle">
+            <p>List Top Product Description</p>
+        </div>
+        <div class="product-group">
+            <div class="row">
+                <!-- product 1 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/iphone-13-.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 12 Pro 512GB</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">28.490.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 2 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Galaxy-S22-Black.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S22 White</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">25.990.000 <sup>đ</sup></span>
+                                <span class="new-price">22.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">sale 11%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 3 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/iphone-13-mini-pink.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 13 128GB</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">24.990.000 <sup>đ</sup></span>
+                                <span class="new-price">20.390.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale 18%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 4 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Vivo-y15s-2021-xanh-den.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Vivo X80 series</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">19.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale 18%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 5 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/Galaxy-S22-Plus-White.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S22 Black</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">21.990.000 <sup>đ</sup></span>
+                                <span class="new-price">18.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale 15%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 6 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/iphone-13-mini-pink.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 13 mini</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">21.990.000<sup>đ</sup></span>
+                                <span class="new-price">18.490.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale 15%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 7 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/samsung-galaxy-z-flip-3-cream.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy Z Flip3</h5>
+                            <div class="card-text product-price mb-3">
+                                <span class="del-price">24.990.000 <sup>đ</sup></span>
+                                <span class="new-price">17.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                            <h4 class="sale-sticky">Sale 28%</h4>
+                        </div>
+                      </div>
+                </div>
+                <!-- product 8 -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card card-product mb-3">
+                        <img src="img_product_mobile/iphone-se-white.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone SE (2022)</h5>
+                            <div class="card-text product-price mb-3">
+                                <!-- <span class="del-price">100.000<sup>đ</sup></span> -->
+                                <span class="new-price">12.990.000<sup>đ</sup></span>
+                            </div>
+                            <a href="#" class="btn btn-info btn-add-to-card"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="btn btn-detail">Xem chi tiết</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end list top product-->
+
+<footer class="container-fluid bg-dark py-3">
+    <div class="container text-white text-center">
+        Copyright &copy; 2022 by Ngo Xuan Hung
+    </div>
+</footer>
+<!--load bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
